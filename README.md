@@ -44,7 +44,7 @@ Bạn cũng có thể tải về dưới dạng PDF hoặc Epub bằng cách tru
 
 | STT. | Câu hỏi                                                                                                                                                       |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1    | [Có bao nhiêu cách để tạo ra objects trong JavaScript](#what-are-the-possible-ways-to-create-objects-in-javascript)                                           |
+| 1    | [Có bao nhiêu cách để tạo ra objects trong JavaScript](#có-bao-nhiêu-cách-để-tạo-ra-objects-trong-javascript)                                                 |
 | 2    | [What is prototype chain](#what-is-a-prototype-chain)                                                                                                         |
 | 3    | [What is the difference between Call, Apply and Bind](#what-is-the-difference-between-call-apply-and-bind)                                                    |
 | 4    | [What is JSON and its common operations](#what-is-json-and-its-common-operations)                                                                             |
@@ -549,9 +549,6 @@ Bạn cũng có thể tải về dưới dạng PDF hoặc Epub bằng cách tru
       var object = new Person();
       ```
 
-      <!-- This is equivalent to an instance created with an object create method with a function prototype and then call that function
-      with an instance and parameters as arguments. -->
-
       Cách này tương tự với việc tạo ra một nguyên mẫu mới bằng phương pháp Object.create đi kèm với prototype của hàm và gọi hàm đó với cách biến truyền.
 
       ```javascript
@@ -593,7 +590,7 @@ Bạn cũng có thể tải về dưới dạng PDF hoặc Epub bằng cách tru
 
       <!-- A Singleton is an object which can only be instantiated one time. Repeated calls to its constructor return the same instance and this way one can ensure that they don't accidentally create multiple instances. -->
 
-      "Nếu bạn nào chưa học Object-Orientend Programming (Lập trình Hướng đối tượng) thì học ngay đi, đừng làm biếng nữa pls"
+      _"Nếu bạn nào chưa học Object-Orientend Programming (Lập trình Hướng đối tượng) thì học ngay đi, đừng làm biếng nữa pls"_
 
       Singleton là một object chỉ tạo ra đúng duy nhất một lần, vào lúc mới khởi tạo. Gọi constructor của nó sẽ trả về đúng duy nhất một kết quả mà đã khởi tạo ra. Điều này nhằm để ngăn chặn việc cố tạo ra nhiều object instance mới.
 
