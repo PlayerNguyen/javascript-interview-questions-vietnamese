@@ -517,15 +517,12 @@ Bạn cũng có thể tải về dưới dạng PDF hoặc Epub bằng cách tru
            age: 34
       };
 
-      <!-- Object literal property values can be of any data type, including array, function, and nested object. -->
       Object literal có thể chứa bất kỳ loại dữ liệu nào, bao gồm array, function, và object lồng nhau.
       ```
 
       **CHÚ Ý, CHÚ Ý, CHÚ Ý!!!:** Đây là cách dễ nhất để tạo ra một object
 
    4. **Function constructor (Tạo object bằng hàm khởi tạo):**
-
-      <!-- Create any function and apply the new operator to create object instances, -->
 
       Tạo một hàm và thêm vào từ khoá new để tạo ra một nguyên mẫu mới của object
 
@@ -538,8 +535,6 @@ Bạn cũng có thể tải về dưới dạng PDF hoặc Epub bằng cách tru
       ```
 
    5. **Function constructor with prototype (Hàm khởi tạo bằng prototype):**
-
-      <!-- This is similar to function constructor but it uses prototype for their properties and methods, -->
 
       Cũng giống như dùng hàm khởi tạo, nhưng nó sẽ dùng prototype để chứa các thành phần và hàm con
 
